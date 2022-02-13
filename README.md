@@ -26,10 +26,24 @@
 
 #### 技术栈
 
-- Vue
+- Vue3
 
 - ElementUI
 
 - SpringBoot
 
 - MySQL
+
+- MyBatis-Plus-Generator
+
+#### 自动化代码生成
+
+使用MyBatis-Plus的代码生成器，可连接数据库自动生成pojo，mapper，service，controller四层的大部分代码，使得注意力可集中于开发业务逻辑上。
+
+#### 模块一：登录
+
+面向ElementUI文档编程...
+
+##### 校验规则配置
+
+配置属性 `prop`，指定校验规则`:rules = ...`（冒号不可少，否则绑定不上）
